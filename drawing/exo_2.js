@@ -7,9 +7,9 @@ while (row <= userInput) { // the row variable will always reach the value of th
     let col = 1
     while(col <= 10) { // while this function is running col will always try to reach the value 10 and be equal to it
         if((row + col) % 2 === 0)  { //additioned row and col value together, if the rest after dividing is even make it black if not make it white
-            lineText += "⬛" //if even white
+            lineText += "⬛" //if even black
         }else {
-            lineText += "⬜"// if odd black
+            lineText += "⬜"// if odd white
         }
         col++//add one until you reach 10
     }
