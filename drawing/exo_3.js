@@ -1,10 +1,10 @@
-let userInput = 10 //same principale as in showed in exo 1,2
-let row = 1 //same principale as in showed in exo 1,2
+let userInput = 10 
+let row = 1 
 
 
-while(row <= userInput) {//same principale as in showed in exo 1,2
-    let lineText = ""//same principale as in showed in exo 1,2
-    let col = 1//same principale as in showed in exo 1,2
+while(row <= userInput) {
+    let lineText = ""
+    let col = 1
     
     while(col <= userInput) { //like alawys the inner loop do a specific task and give it to the outer loop that compiles it
 
@@ -17,13 +17,13 @@ while(row <= userInput) {//same principale as in showed in exo 1,2
         }else if(col === userInput) {
             lineText += "⬛" // same principales here but using the userinput so we get a black left border
         }else {
-            lineText += "⬜"
+            lineText += "⬜" // fill all the other space with white cubes !
         }
 
         col++ // add one each time to col to reach the exact the number we want 
     }
     
 
-    console.log(lineText)//same principale as in showed in exo 1,2
-    row++//same principale as in showed in exo 1,2
+    console.log(lineText)
+    row++
 }
