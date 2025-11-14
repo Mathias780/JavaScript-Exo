@@ -16,6 +16,8 @@ console.log(WelcomeList) //then we display the empty array who is been combined 
 
 // i did the exercice the wrong way so here is the new one :) follow basically the same principale
 
+/*
+
 let numbers = [2,4,10]
 
 let doubled = []
@@ -31,9 +33,20 @@ for(let i = 0; i < numbers.length; i++) {
 
 //------------- Optimised version --------------//
 
+/*
 
 for(let a of numbers) {    //shortcut of what was done above 
-    doubled.push(a * 2)
+    doubled.push(a * 2) 
 }
+
+console.log(doubled)
+
+*/
+
+//------------ Even More Optimised version :(-------------//
+
+let numbers = [2,4,10]
+
+let doubled = numbers.map(n => n *2) // dosen't make sense to me but i guess it takes the array of numbers look through the index's and multiply them by 2 directly because of .map syntax 
 
 console.log(doubled)
