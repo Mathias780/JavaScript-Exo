@@ -47,6 +47,7 @@ console.log(doubled)
 
 let numbers = [2,4,10]
 
-let doubled = numbers.map(n => n *2) // dosen't make sense to me but i guess it takes the array of numbers look through the index's and multiply them by 2 directly because of .map syntax 
+let doubled = numbers.map(n => n *2) // .map does the loop for me: it grabs every number "n", multiplies it by 2,
+// and returns a fresh array. Basically the one-line cheat code version of my long loop.
 
 console.log(doubled)
