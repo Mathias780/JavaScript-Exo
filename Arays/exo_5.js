@@ -12,4 +12,4 @@ function countOccurences(arr,value) { // this function will basicaly count each 
 
 let animals = ["pony","wolf","lion","wolf","wolf","snake","pony","lion"]
 
-console.log(countOccurences(animals, "wolf"))// so here i we can see that we have both the array and the value we are looking for, and will directly show me how much of time this value is present in my array.
+console.log(countOccurences(animals, "wolf"))// so here i we can see that we have both the array and the value we are looking for, and will directly show me how much times this value is present in my array.
