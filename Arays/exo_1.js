@@ -20,8 +20,20 @@ let numbers = [2,4,10]
 
 let doubled = []
 
+/*
 for(let i = 0; i < numbers.length; i++) {
     doubled.push(numbers[i] * 2) // we take the each index in order multiply it by 2 then add the result in our empty array
+}
+*/
+//console.log(doubled)
+
+
+
+//------------- Optimised version --------------//
+
+
+for(let a of numbers) {    //shortcut of what was done above 
+    doubled.push(a * 2)
 }
 
 console.log(doubled)
