@@ -1,7 +1,6 @@
 function addOneWeek(date) {
-    let newDate = new Date(date)
-    newDate.setDate(newDate.getDate() + 7)
-    return newDate
+    date.setDate(date.getDate() + 7)
+    return date
 }
 
 let myDate = new Date(2025, 11, 17)
